@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'mnte';
+  src: url('../src/fonts/MonumentExtended-Regular.otf') format('truetype')
+}
+
+@font-face {
+  font-family: 'alsans';
+  src: url('../src/fonts/AlbertSans-VariableFont_wght.ttf') format('truetype')
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 15px;
+}
+
+.cont-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.cont-right .link {
+  font-family: "alsans", sans-serif;
+  text-decoration: none;
+  color: black;
+  letter-spacing: -4%;
+  font-size: 18px;
+  transition: .2s ease-in-out;
+}
+
+.cont-right .link:hover {
+  color: grey;
+  transition: .2s ease-in-out;
+}
+
+.cont h2 {
+  font-family: "mnte", sans-serif;
+}
