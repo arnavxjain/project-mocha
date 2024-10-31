@@ -12,6 +12,7 @@ import ParanoiaGrid from './components/ParanoiaGrid';
 import Projects from './pages/Projects';
 
 const router = createBrowserRouter([
+  // _
   {
     path: "/",
     element: <ParanoiaGrid />,
